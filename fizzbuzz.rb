@@ -2,11 +2,11 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(number)
-  if number % 3 == 0 and number % 5 == 0
-    return "FizzBuzz"
+  if number % 3 == 0 && number % 5 == 0
+    "FizzBuzz"
   elsif number % 5 == 0
-    return "Buzz"
+    "Buzz"
   elsif number % 3 == 0
-    return  "Fizz"
+    "Fizz"
    end
  end
